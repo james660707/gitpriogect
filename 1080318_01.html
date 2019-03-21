@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesh	eet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <style>
+  	.navbar-default{
+  		background-color: #fff;
+  		border-color: #fff;
+  	}
+  	.navbar{
+  		padding-top: 25px;
+  	}
+  	.navbar-brand{
+  		color: #189ADE;
+  		font-size: 30px;
+  		font-weight: bold;
+  	}
+  	.bg-cover{
+  		background-repeat: no-repeat;
+  		background-position: center center;
+  		-webkit-background-size:cover;
+  		background-size: cover;
+  	}
+  	.carousel-caption{
+  		background-color: rgba(0,0,0,0.4);
+  		padding: 15px;
+  		margin-bottom: 15px;
+  		font-weight: bold;
+  	}
+ 	@media screen and (max-width:576Px){
+	.table-rwd thead{
+	display: none;
+	}
+	.item{
+		background-color: #ccc;
+		padding: 15px;
+		font-size: 24px;
+	}
+	/*取消標籤*/
+	.item li{
+		list-style-type: none;
+
+	}
+	.mp10{
+		margin-top: 10px;
+	}
+	.mp15{
+		margin-right: 15px;
+	}
+
+  </style>
+  <body>
+	<!-- navbar -->
+	<nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">weeding</a>
+	    </div>  		
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	          <li><a href="#">彩妝造型</a></li>
+	          <li><a href="#">婚禮紀錄</a></li>
+	          <li><a href="#">主題攝影</a></li>
+	          <li><a href="#">婚紗禮服</a></li> 
+	      </ul> 		
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+    <!-- 照片輪撥功能(每5秒更換一次) -->
+ 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+     <!-- Indicators -->
+	  <ol class="carousel-indicators">
+	    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	  </ol>
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+	    <!-- 第一張圖片 -->
+	    <div class="item active bg-cover" style="background-image: url(images/ACL037300.jpg);height: 360px;">
+	   <!--    <img src="images/ACL037300.jpg" alt="..."> -->
+	      <div class="carousel-caption">
+	        <h2>地面用途相關圖片但我</h2>
+	        <p>流行對你容易你在嚴格舉報目標客人專區具，人大常委會享受你自己視頻上網，同事到了最初告訴準備問題，一。</p>
+	      </div>
+	    </div>
+	  <!-- 第二張圖片 -->
+	    <div class="item  bg-cover" style="background-image: url(images/ACL039600.jpg);height: 360px;">
+	      <div class="carousel-caption">
+	        <h2>哈爾濱創新一部外面上</h2>
+	        <p>規劃到來確保感染認證基地重慶然後詳細信息那天不怕，嚴重現場門口階段反覆婦，激動按鈕商業位置標誌，驚。</p>
+	      </div>
+	    </div>
+	  <!-- 第三張圖片 -->
+	    <div class="item bg-cover" style="background-image: url(images/AEB002800.jpg);height: 360px;">
+	      <div class="carousel-caption">
+	        <h2>下載次數上午創造海南</h2>
+	        <p>改善慢慢所說後面事件達到寶寶重點知道到來預防大多數逐步再度，有的成功實業大力解決是什，球員檢測語言。</p>
+	      </div>
+	    </div> 
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	    <span class="sr-only">Previous</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	    <span class="sr-only">Next</span>
+	  </a>
+	</div>
+	
+	<div class="container">
+		<div class="row mp10">
+			<div class="col-md-4">	
+				<div class="item">
+					<ol>
+						<li><i class="fab fa-apple mp15"></i>反覆最終作用他說專區</li>
+						<li><i class="fab fa-android mp15"></i>我只會員價創建也能試</li>
+						<li><i class="fab fa-android mp15"></i>人體人數不但妻子夏天</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
